@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <!-------------------- Header Area (Start) -------------------->
+    <header class="header">
+        <!-- Logo -->
+        <a href="index.html" class="logo">
+            <h2>eMarc<span>.</span></h2>
+            <!-- <img src="assets/images/logo.png" alt="logo" /> -->
+        </a>
+        <!-- Logo End-->
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a href="index.html">About Me</a>
+            <a href="contact.html">Contact</a>
+            <a href="register.html">Registration</a>
+            <a href="login.html" class="active">Login</a>
+        </nav>           
+    </header>
+    <main>
+      <div class="login-cover">
+        <div class="login-container">
+          <div class="login-wrap">
+            <form class="login-form ">
+              <span class="login-form-title"> Welcome </span>
+              <div
+                class="login-input-wrap">
+                <input class="login-input" type="text" name="username" placeholder="Username" required />
+                <span class="login-input-focus" ></span>
+              </div>
+              <div
+                class="login-input-wrap"
+                data-validate="Enter password"
+              >
+                <input class="login-input" type="password" name="pass" placeholder="Password" required/>
+                <span class="login-input-focus"></span>
+              </div>
+              <div class="login-button-container">
+                <button class="login-button">Sign In</button>
+              </div>
+              <ul class="login-more-content">
+                <li>
+                  <span class="login-text1"> Forgot </span>
+                  <a href="#" class="login-text2"> Username / Password? </a>
+                </li>
+                <li>
+                  <span class="login-text1"> Don’t have an account? </span>
+                  <a href="register.html" class="login-text2"> Sign up </a>
+                </li>
+              </ul>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="#" class="fa fa-facebook-f"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <div class="content">
+            <p>&copy; Copyright E.A. Aroso 2022</p>
+        </div>
+        
+    </footer>
+    <!-------------------- Footer Area (End) -------------------->
+</body>
+</html>
