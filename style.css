@@ -37,7 +37,7 @@ header .logo h2{
     font-size: 2rem;
     font-weight: 900;
     color: #ED176F;
-    text-transform: uppercase;
+  /*  text-transform: uppercase;*/
     letter-spacing: 0.2rem;
 }
 header .logo span {
