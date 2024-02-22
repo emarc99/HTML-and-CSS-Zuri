@@ -58,12 +58,10 @@ header .navbar a:hover, header .navbar a.active {
 }
  .home-container {
      display: flex;
-    /* width: 90%; */
-     justify-content: space-around;
+     justify-content: space-evenly;
      flex-wrap: wrap;
      align-items: center;
-/*      align-content: space-between; */
-     padding-top: 45px;
+     padding-top: 76px;
 }
 .home-text {
     display: flex;
